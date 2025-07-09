@@ -1,0 +1,13 @@
+package com.tns.D8.Interface;
+
+public interface OuterInterface {
+	
+	void calArea();
+	
+	
+	interface InnerInterface{
+		int id=20;
+		void print();
+	}
+
+}
